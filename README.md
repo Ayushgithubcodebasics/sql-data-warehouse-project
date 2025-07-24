@@ -157,6 +157,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## 📞 Contact
-Your Name - [ayushbutoliya22@gmail.com](mailto:ayushbutoliya22@gmail.com)
+Mail - [ayushbutoliya22@gmail.com](mailto:ayushbutoliya22@gmail.com)
 
 Project Link: [https://github.com/your-username/sql-data-warehouse-project](https://github.com/Ayushgithubcodebasics/sql-data-warehouse-project.git)
