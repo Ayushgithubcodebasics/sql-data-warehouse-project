@@ -1,10 +1,5 @@
 # Modern SQL Data Warehouse for Sales Analytics
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![ETL](https://img.shields.io/badge/Process-ETL-blue?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Architecture-Medallion-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-
 A comprehensive, end-to-end data warehousing project that demonstrates the process of building a modern data warehouse from scratch using SQL Server. This repository showcases best practices in data architecture, ETL development, data modeling, and data cleansing, making it an ideal portfolio project for data professionals.
 
 ---
@@ -18,7 +13,6 @@ A comprehensive, end-to-end data warehousing project that demonstrates the proce
 - [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation & Setup](#installation--setup)
-- [Repository Structure](#-repository-structure)
 - [License](#-license)
 - [Contact](#-contact)
 
@@ -59,6 +53,8 @@ This project covers a wide range of essential skills in the data engineering and
 ## 🏗️ Data Architecture
 
 This project implements the **Medallion Architecture**, a modern data design pattern that logically organizes data into three distinct layers. This approach ensures that data is progressively cleaned, refined, and modeled as it flows through the system.
+
+<img width="6235" height="3216" alt="data_architecture" src="https://github.com/user-attachments/assets/f2f81de6-86c9-4fdc-ad96-1937edf75637" />
 
 ### 🥉 Bronze Layer (Raw Data)
 -   **Purpose**: Serves as the initial landing zone for raw data from source systems. The data is stored "as-is" with no transformations.
@@ -144,13 +140,6 @@ Follow these instructions to get a copy of the project up and running on your lo
     WHERE
         dp.category = 'Bikes';
     ```
-
----
-
-## 📂 Repository Structure
-
-.├── data_assets/│   ├── crm/│   │   └── *.csv       # Source CSV files for CRM│   └── erp/│       └── *.csv       # Source CSV files for ERP├── documents/│   ├── data_architecture.png│   ├── data_model.png│   └── ...             # Other documentation├── scripts/│   ├── init_database.sql # Master script to create DB and schemas│   ├── bronze/│   ├── silver/│   └── gold/└── tests/└── quality_checks_gold.sql # SQL scripts for data validation└── README.md
----
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
