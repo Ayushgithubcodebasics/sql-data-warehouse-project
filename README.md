@@ -82,7 +82,8 @@ This project implements the **Medallion Architecture**, a modern data design pat
 
 The Gold layer is modeled as a **Star Schema**, which is optimized for querying and BI analytics. It consists of one central fact table surrounded by two dimension tables.
 
-+-------------------------+      +-------------------------+|      dim_customers      |      |      fact_sales         |+-------------------------+      +-------------------------+| 🎯 customer_key (PK)    |      |   product_key (FK)      ||    customer_id          |      |   customer_key (FK)     ||    customer_number      |      |   order_date            ||    first_name           |      |   shipping_date         ||    last_name            |      |   ...                   ||    ...                  |      |   sales_amount          |+-------------------------+      |   quantity              ||                     +-------------------------+|                                  |+----------------------------------+|+-------------------------+                   ||      dim_products       |                   |+-------------------------+                   || 🎯 product_key (PK)     |<------------------+|    product_id           ||    product_number       ||    product_name         ||    category             ||    ...                  |+-------------------------+
+<img width="6033" height="2249" alt="data_model" src="https://github.com/user-attachments/assets/83c3a04c-5b19-4754-8fd5-9b73d7467aa6" />
+
 -   **`fact_sales`**: Contains quantitative transactional data (the "facts"), such as sales amount and quantity. It includes foreign keys to the dimension tables.
 -   **`dim_customers` & `dim_products`**: Contain descriptive attributes (the "dimensions") about customers and products, respectively. They provide the context for the facts.
 
