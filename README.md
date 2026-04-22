@@ -91,4 +91,4 @@ The Gold layer is modeled as a **Star Schema**, which is optimized for querying 
 ## 📞 Contact
 Mail - [ayushbutoliya22@gmail.com](mailto:ayushbutoliya22@gmail.com)
 
-Project Link: [https://github.com/your-username/sql-data-warehouse-project](https://github.com/Ayushgithubcodebasics/sql-data-warehouse-project.git)
+Project Link: [https://github.com/Ayushgithubcodebasics/sql-data-warehouse-project](https://github.com/Ayushgithubcodebasics/sql-data-warehouse-project.git)
